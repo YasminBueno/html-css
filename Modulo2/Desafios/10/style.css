@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+br {
+    color: #007D32;
+    color: #004F41;
+    color: #4FAD64;
+    color: #8DC989;
+    color: #DCFFD6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #DCFFD6;
+}
+header{
+    color: white;
+    background-image: linear-gradient(to top,  #004F41, #4FAD64, #8DC989);
+}
+header h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-family: "Titillium Web", sans-serif;
+}
+header p{
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+header nav{
+    text-align: left;
+    padding-bottom: 5px;
+}
+header  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 10px;
+}
+header a:hover{
+    font-size: 16px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 700px;
+}
+main section{
+    padding: 20px;
+}
+main #artigo4{
+    border-radius: 20px;
+    padding-bottom: 4px;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.081);
+}
+
+main h2, main h1{
+    font-family: 'idroid', fantasy;
+    color: #004F41;
+    margin: 0px;
+}
+main h2{
+    background-image: linear-gradient(to right, #8DC989, #DCFFD6);
+}
+main p{
+    text-indent: 20px;
+}
+main a{
+    text-decoration: none;
+    color: #004F41;
+    font-weight: bold;
+}
+main a:hover{
+    text-decoration: underline;
+    color: #007D32;
+}
+main #artigo2 a::after, main #artigo3 a::after, main #artigo4 a::after{
+    font-size: 13px;
+    content: '🔗';
+}
+main img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+main #section2{
+    background-color: #004F41;
+    padding: 10px;
+}
+main iframe {
+    display: block;
+    margin: auto;
+}
+main #artigo4{
+    background-color: #dcffd68b;
+    margin: 10px;
+}
+main #artigo4 h3{
+    background-color: #4FAD64;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main #artigo4 p{
+    padding-left: 10px;
+}
+
+ul {
+    column-count: 2;
+    column-gap: 20px;
+}
+ul li {
+    list-style-type: none; 
+  }
+  
+ul li::before {
+    content: "✓";
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+
+footer {
+    background-color: #004F41;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > a:hover{
+    text-decoration: underline;
+    font-weight: normal;
+}
