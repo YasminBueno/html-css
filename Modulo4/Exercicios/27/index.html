@@ -11,8 +11,16 @@
     </style>
 </head>
 <body>
-    <h1>Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <h1>Formulário</h1> 
+    <!--
+        get - coloca os dados na url 
+        -- NÃO PODE ---
+        - mais de 3.000 letras
+        - dados sensiveis 
+        - imagens  
+        post - não coloca os dados na url
+    -->
+    <form action="cadastro.php" autocomplete="off" method="post">
         <p>
             <label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">
