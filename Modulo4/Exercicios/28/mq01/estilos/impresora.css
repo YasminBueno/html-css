@@ -17,6 +17,9 @@ menu{
     display: none;
 }
 
+article{
+    width: 100%;
+}
 article::after{
-    content: 'Artigo empresso ';
+    content: 'Artigo empresso por Yasmin Bueno';
 }
