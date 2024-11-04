@@ -5,29 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Box</title>
     <style>
-        div.conteiner{
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            
             background-color: lightsalmon;
+        }
+        main{
+            background-color: lightgreen;
+            height: 100vh;
+            width: 100vw;
 
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        div#item{
-            background-color: lightblue;
-            border: 1px solid black;
-
-            flex: auto;
-            text-align: center;
+        section{
+            background-color: lightseagreen;
+            height: 200px;
+            width: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="conteiner">
-        <div id="item">A</div>
-        <div id="item">B</div>
-        <div id="item">C</div>
-        <div id="item">D</div>
-        <div id="item">E</div>
-        <div id="item">F</div>
-        <div id="item">G</div>
-    </div>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
 </body>
 </html>
