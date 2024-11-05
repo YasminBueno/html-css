@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt=br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +9,25 @@
             background-color: lightsalmon;
 
             display: flex;
-            flex-wrap: wrap;
         }
-        div.item{
+        div#item{
             background-color: lightblue;
             border: 1px solid black;
+
+            flex: auto;
             text-align: center;
-            flex-basis: 150px;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B Outro conteúdo</div>
-        <div class="item">C</div>
-        <div class="item">D Conteudo um pouco maior</div>
-        <div class="item">E</div>
-        <div class="item">F Conteúdo maior ainda, que vai ocupar mais espaço</div>
-        <div class="item">G</div>
+        <div id="item">A</div>
+        <div id="item">B</div>
+        <div id="item">C</div>
+        <div id="item">D</div>
+        <div id="item">E</div>
+        <div id="item">F</div>
+        <div id="item">G</div>
     </div>
 </body>
 </html>
