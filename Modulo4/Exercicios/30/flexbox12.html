@@ -9,25 +9,31 @@
             background-color: lightsalmon;
 
             display: flex;
+            flex-flow: row nowrap;
         }
-        div#item{
+        div.item{
             background-color: lightblue;
             border: 1px solid black;
-
-            flex: auto;
             text-align: center;
+        }
+
+
+        #a{ 
+            flex: 1 0 200px;
+        }
+        #b{
+            flex: 1 1 150px;
+        }
+        #c{
+            flex: 1 8 auto;
         }
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div id="item">A</div>
-        <div id="item">B</div>
-        <div id="item">C</div>
-        <div id="item">D</div>
-        <div id="item">E</div>
-        <div id="item">F</div>
-        <div id="item">G</div>
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
     </div>
 </body>
 </html>
